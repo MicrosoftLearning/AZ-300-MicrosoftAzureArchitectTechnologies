@@ -1,4 +1,4 @@
-﻿# Configuring and Managing Virtual Networks
+﻿# Implementing Advanced Virtual Networking
 # Lab: Configuring VNet peering and service chaining
   
 ### Scenario
