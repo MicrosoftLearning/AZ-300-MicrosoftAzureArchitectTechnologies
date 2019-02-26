@@ -181,7 +181,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, run the following to retrieve properties of the blob: 
 
    ```
-   Get-AzureStorageBlob -Container 'labcontainer' -Blob 'splashscreen.contrast-white_scale-400.png'
+   Get-AzureStorageBlob -Container 'labcontainer' -Blob 'splashscreen.contrast-white_scale-400.png' -Context $keyContext
    ```
 
 1. Verify that you successfully accessed the blob.
