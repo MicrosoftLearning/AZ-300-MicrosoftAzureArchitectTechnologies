@@ -213,7 +213,7 @@ The main tasks for this exercise are as follows:
 
 1. Start **Routing and Remote Access** service.
 
-1. In the Remote Desktop session to az3000401-vm2, start the **Windows Firewall with Advanced Security** console and enable **File and Printer Sharing (Echo Request - ICMPv4-In)** inbound rule for all profiles.
+1. In the Remote Desktop session to az3000401-vm1, start the **Windows Firewall with Advanced Security** console and enable **File and Printer Sharing (Echo Request - ICMPv4-In)** inbound rule for all profiles.
 
 > **Result**: After completing this exercise, you should have configured custom routing within the second virtual network.
 
