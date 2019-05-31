@@ -212,7 +212,7 @@ The main tasks for this exercise are as follows:
 
 1. When prompted, authenticate by using the Microsoft Account you are using in this lab. 
 
-1. When prompted for the consent to grant Azure Logic App permissions to access Outlook resources, click **Yes**.
+1. When prompted for the consent to grant Azure Logic App permissions to access Outlook resources, click **Yes**. If you receive error, probably you have not Office 365 license assigned to your tenant or user account. Just go to https://products.office.com/en-us/business/office-365-enterprise-e3-business-software and select **Free Trial** and choose **Yes, add it to my account**. Enter your phone number and on next page confirm trial. Wait until your Office 365 Outlook account will be ready you can check it using https://www.office.com/ and chose Outlook icon. Please confirm that you can send and receive emails. Remove Outlook step from Logic App and repeat step and add it again.
 
 1. In the **Send an email** pane, specify the following settings and click **Save**:
 
