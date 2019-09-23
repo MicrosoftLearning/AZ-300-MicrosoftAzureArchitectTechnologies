@@ -55,7 +55,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, create a resource group by running (replace the `<Azure region>` placeholder with the name of the Azure region that is available in your subscription and which is closest to the lab location)
 
    ```
-   az group create --resource-group az3000501-LabRG --location <Azure region>
+   az group create --name az3000501-LabRG --location <Azure region>
    ```
 
 1. From the Cloud Shell pane, upload the Azure Resource Manager template **\\allfiles\\AZ-300T01\\Module_05\\azuredeploy05.json** into the home directory.
