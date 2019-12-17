@@ -70,7 +70,7 @@ The main tasks for this exercise are as follows:
 
    - Location: the name of the Azure region that you referenced when running `Test-AzDnsAvailability` earlier in this task
 
-   - Vm Sku: **Standard_D1_v2**
+   - Vm Sku: **Standard_D2_v2**
 
    - Vmss Name: the custom label you identified when running `Test-AzDnsAvailability` earlier in this task
 
