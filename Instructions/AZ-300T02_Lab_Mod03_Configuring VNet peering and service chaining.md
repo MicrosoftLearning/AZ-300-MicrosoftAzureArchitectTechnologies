@@ -70,7 +70,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, deploy the two Azure VMs hosting Windows Server 2016 Datacenter into the first virtual network by running:
 
    ```
-   az deployment group create --resource-group az3000401-LabRG --template-file azuredeploy0401.json --parameters @azuredeploy04.parameters.json --no-wait
+   az deployment group create --resource-group az3000401-LabRG --template-file azuredeploy0401.json --parameters azuredeploy04.parameters.json --no-wait
    ```
 
     > **Note**: Do not wait for the deployment to complete but proceed to the next task.
@@ -83,7 +83,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, deploy an Azure VM hosting Windows Server 2016 Datacenter into the second virtual network by running:
 
    ```
-   az deployment group create --resource-group az3000402-LabRG --template-file azuredeploy0402.json --parameters @azuredeploy04.parameters.json --no-wait
+   az deployment group create --resource-group az3000402-LabRG --template-file azuredeploy0402.json --parameters azuredeploy04.parameters.json --no-wait
    ```
 
     > **Note**: The second template uses the same parameter file. 
