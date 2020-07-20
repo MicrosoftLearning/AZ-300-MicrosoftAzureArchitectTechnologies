@@ -140,7 +140,7 @@ The main tasks for this exercise are as follows:
 
 1. In the **Resource** section, select the VM scale set you provisioned in the previous exercise of this lab.
 
-1. In the **Condition** section, click **Add condition**, select the **Percentage CPU** metric, leave the dimension settings and condition type with their default values, set the condition to **Greater than**, set the type aggregation to **Average**, set the threshold to **40**, set the Aggregation granularity (period) to **1 minute**, set the frequency to **Every 1 minute** and click **done**.
+1. In the **Condition** section, click **Add condition**, select the **Percentage CPU** metric, leave the dimension settings and condition type with their default values, set the condition to **Greater than**, set the type aggregation to **Average**, set the threshold to **60**, set the Aggregation granularity (period) to **1 minute**, set the frequency to **Every 1 minute** and click **done**.
 
 1. In the **Actions** section, click **Select action group**, select previously created action group **az30001 action group** and click **done**.
 
